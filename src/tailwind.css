@@ -21,7 +21,7 @@
   }
 
   .wrapper{
-    @apply w-[45%] max-w-[450px] h-[550px] px-[28px] py-[8px] rounded-lg bg-slate-500 flex flex-col gap-[10px] flex-nowrap items-center shadow-md shadow-black
+    @apply w-[45%] max-w-[450px] h-[550px] px-[28px] py-[8px] rounded-lg bg-slate-500 flex flex-col gap-[10px] flex-nowrap items-center shadow-md shadow-black relative
   }
 
   .img_box{

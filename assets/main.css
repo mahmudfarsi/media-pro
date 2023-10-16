@@ -587,6 +587,7 @@ video {
 }
 
 .wrapper{
+  position: relative;
   display: flex;
   height: 550px;
   width: 45%;
