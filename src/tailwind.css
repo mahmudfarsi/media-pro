@@ -1,3 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+
+@layer utilities{
+    .container{
+    @apply max-w-full h-screen bg-slate-300 flex justify-center items-center
+  }
+
+  .wrapper{
+    @apply w-[45%] max-w-[450px] h-[550px] px-[28px] py-[8px] rounded-lg bg-slate-500 flex flex-col gap-[10px] flex-nowrap items-center shadow-md shadow-black
+  }
+
+  .img_box{
+    @apply w-[400px] h-[390px] overflow-hidden rounded-lg fixed top-[70px] shadow-black shadow-sm
+  }
+
+  .img_box img{
+    @apply mt-[-40px] rounded-lg
+  }
+
+  .names{
+    @apply mt-[350px] flex flex-col justify-center items-center
+  }
+
+  .track_name{
+    @apply font-Raleway font-bold text-[30px] capitalize
+  }
+
+  .artist_name{
+    @apply font-Raleway font-light capitalize 
+  }
+
+  .duraion_box{
+    @apply w-full h-[3px] bg-black bg-opacity-40 mt-[10px]
+  }
+
+  .box_controls{
+    @apply w-full flex flex-nowrap justify-center gap-[10px] mt-[10px] items-center
+  }
+
+  button{
+    @apply rounded-full border-black px-[10px] py-[10px] border-solid border flex justify-center items-center hover:bg-white 
+  }
+
+  button:nth-child(2){
+    @apply px-[20px] py-[18px]
+  }
+}
+
+
+
+@layer components{
+
+}
+
